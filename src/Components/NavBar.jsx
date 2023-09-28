@@ -7,9 +7,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const NavBar = () => {
   return (
-    
-      <Navbar expand="lg" className="bg-body-tertiary">
-
+    <Navbar expand="lg" className="bg-body-tertiary">
     <Navbar.Brand href="#home">Angelica Ayala</Navbar.Brand>
 
     <Container className="d-flex justify-content-end">
@@ -18,11 +16,8 @@ const NavBar = () => {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
           <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#AboutMe">About Me</Nav.Link>
-          <Nav.Link href="#Skills">Skills</Nav.Link>
-          <Nav.Link href="#Portfolio">Portfolio</Nav.Link>
-          <Nav.Link href="#ContactME">Contact Me</Nav.Link>
-          {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+          <Nav.Link href="#link">Link</Nav.Link>
+          <NavDropdown title="Dropdown" id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">
               Another action
@@ -32,14 +27,12 @@ const NavBar = () => {
             <NavDropdown.Item href="#action/3.4">
               Separated link
             </NavDropdown.Item>
-          </NavDropdown> */}
+          </NavDropdown>
         </Nav>
       </Navbar.Collapse>
     </Container>
   </Navbar>
   
-   
-    
     
  
    

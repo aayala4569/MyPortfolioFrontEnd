@@ -1,5 +1,12 @@
-.black-gradient-background {
-  background: linear-gradient(to bottom, #777676, #000000); /* Replace with your desired gradient colors */
+body,html{
+  background-repeat: none;
+  background-size: cover;
+  background: rgb(119,118,118);
+  background: linear-gradient(180deg, rgba(119,118,118,1) 4%, rgba(0,0,0,0.31838672969187676) 70%);
+  margin: 0;
+  height: 100%;
+  padding: 0;
+ 
 }
 
 
