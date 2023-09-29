@@ -7,8 +7,17 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const NavBar = () => {
   return (
+    <>
+    
+
+    <Container>
+      <h3>Angelica Ayala</h3>
+
+    </Container>
+
+
     <Navbar expand="lg" className="bg-body-tertiary">
-    <Navbar.Brand href="#home">Angelica Ayala</Navbar.Brand>
+
 
     <Container className="d-flex justify-content-end">
       
@@ -34,7 +43,7 @@ const NavBar = () => {
   </Navbar>
   
     
- 
+ </>
    
   );
 };

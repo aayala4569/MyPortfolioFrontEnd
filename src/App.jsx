@@ -10,8 +10,8 @@ function App() {
   return (
     <Container>
       <Row>
-        <Col>
         <h1>Angelica Ayala</h1>
+        <Col className="d-flex justify-content-end">
         <NavBar/>
         </Col>
       </Row>
