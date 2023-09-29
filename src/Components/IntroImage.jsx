@@ -1,14 +1,25 @@
 import React from 'react';
-import Image from 'react-bootstrap/Image';
+import {Image, Row, Col} from 'react-bootstrap';
+
+
+
+
 
 const IntroImage = () => {
+    
   return (
     <div>
-        <h2>Creative Developer</h2>
-        <Col xs={6} md={4}>
-          <Image src="./Images/MyImage.png" rounded />
+        <Row className="d-flex justify-content-center">
+
+        <Col xs={12} md={12} className="text-center" >
+            <div>
+                <Image src="src/Images/MyImage.png" rounded/>
+                 <h2>Creative Developer</h2>
+                 
+            </div>
         </Col>
-      
+        </Row>
+
     </div>
   )
 }
