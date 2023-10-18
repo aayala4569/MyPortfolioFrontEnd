@@ -6,7 +6,7 @@ const AboutMe = () => {
   return (
     <div>
         <Row >
-            <Col>
+            <Col className="aboutMe">
             <h3 className="d-flex justify-content-center">About me</h3>
             </Col>
             </Row>

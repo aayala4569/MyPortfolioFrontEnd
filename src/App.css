@@ -1,0 +1,12 @@
+.aboutMe {
+    margin: 400px;
+}
+.NavMargin {
+    margin-bottom: 300px;
+}
+.MyImage {
+    display:flex;
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+}

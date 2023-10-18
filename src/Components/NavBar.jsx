@@ -8,18 +8,17 @@ import Navbar from 'react-bootstrap/Navbar';
 const NavBar = () => {
   return (
     <>
-    
-
+   
     <Container>
       <h3>Angelica Ayala</h3>
 
     </Container>
 
 
-    <Navbar expand="xxl" className="bg-body-tertiary">
+    <Navbar expand="xxl" className="bg-body-tertiary NavMargin">
 
 
-    <Container fluid className="d-flex justify-content-end ">
+    <Container fluid className="d-flex justify-content-end">
       
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -33,7 +32,8 @@ const NavBar = () => {
         </Nav>
       </Navbar.Collapse>
     </Container>
-  </Navbar>  
+  </Navbar> 
+    
  </>
    
   );
