@@ -7,6 +7,23 @@
 .MyImage {
     display:flex;
     justify-content: center;
-    height: 500px;
-    width: 500px;
+    height: 700px;
+    width: 700px;
 }
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-80%, -5%);
+    font-size: 100px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    z-index: 2; /* Ensure the h2 is above the image */
+  }
+  
+  .image-container {
+    
+    position: relative; /* This is necessary for absolute positioning to work */
+    z-index: 1; /* Ensure the image is behind the h2 */
+  }
