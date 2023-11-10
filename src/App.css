@@ -1,29 +1,46 @@
+.MyName {
+    font-size: 50px;
+}
 .aboutMe {
-    margin: 400px;
+    margin: 200px;
+}
+.skills {
+margin: 200px;
+    
 }
 .NavMargin {
-    margin-bottom: 300px;
+    margin-bottom: 200px;
+   
 }
+
 .MyImage {
     display:flex;
     justify-content: center;
-    height: 700px;
-    width: 700px;
+    height: 610px;
+    width: 600px;
+    top: 40%;
+    left: 5%;
+    transform: translate(-20%, -0%);
 }
 .overlay-text {
     position: absolute;
-    top: 50%;
+    display:flex;
+    text-align: center;
+    top: 40%;
     left: 50%;
-    transform: translate(-80%, -5%);
-    font-size: 100px;
+    transform: translate(-90%, -40%);
+    font-size: 160px;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
     z-index: 2; /* Ensure the h2 is above the image */
-  }
+  } 
   
-  .image-container {
+
+  
+  /* .image-container {
     
     position: relative; /* This is necessary for absolute positioning to work */
-    z-index: 1; /* Ensure the image is behind the h2 */
-  }
+    /* z-index: 1; /* Ensure the image is behind the h2 */
+   /* }  */ 
+  
