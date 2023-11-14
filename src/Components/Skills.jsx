@@ -4,8 +4,8 @@ import {Image} from 'react-bootstrap';
 
 const Skills = () => {
   return (
-    <div>
-        <Row className="skills">
+    <div className="skills">
+        <Row >
             <Col className="d-flex justify-content-center">
             <h3>Skills</h3>
             </Col>

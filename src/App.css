@@ -8,9 +8,23 @@
 margin: 200px;
     
 }
+
 .NavMargin {
     margin-bottom: 200px;
    
+}
+.portfolio {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.projects{
+    margin-bottom: 200px;
+}
+.contact {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 150px;
 }
 
 .MyImage {

@@ -3,7 +3,6 @@ import reactLogo from "./assets/react.svg";
 import "./App.css";
 import NavBar from "./Components/NavBar";
 import { Container, Row, Col, Image } from "react-bootstrap";
-// import IntroImage from './Components/IntroImage'
 import AboutMe from "./Components/AboutMe";
 import Skills from "./Components/Skills";
 import Portfolio from "./Components/Portfolio";
@@ -11,11 +10,22 @@ import ContactMe from "./Components/ContactMe";
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
-  const [count, setCount] = useState(0);
+  
+
+  // const [count, setCount] = useState(0);
 
   return (
     <Container>
-      {/* <Route path="/" element={<AboutMe/>}/> */}
+         {/* <BrowserRouter>
+   <Routes>
+   {/* <Route path="/" element={<Home/>}/> */}
+   {/* <Route path="/AboutMe" element={<AboutMe/>}/>
+   <Route path="/Skills" element={<Skills/>}/>
+   <Route path="/Portfolio" element={<Portfolio/>}/>
+   <Route path="/ContactMe" element={<ContactMe/>}/>
+   </Routes> */}
+{/* </BrowserRouter> */}
+   
       <Row>
         <Col className="d-flex justify-content-end">
           <NavBar />
@@ -40,7 +50,6 @@ function App() {
 
       <Row>
         <Col>
-          {/* <IntroImage/> */}
           <AboutMe />
           <Skills />
           <Portfolio />
