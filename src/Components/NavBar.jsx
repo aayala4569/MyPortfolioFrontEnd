@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import React from 'react';
-import {Row, Image, Col} from 'react-bootstrap';
+import {Row} from 'react-bootstrap';
 // import {Link} from 'react-router-dom';
 
 
@@ -15,23 +15,20 @@ const NavBar = () => {
     <>
 <Container>
      <Row >
-      <h3 className="d-flex justify-content-start MyName" >Angelica Ayala</h3>
+      <h3 className="d-flex justify-content-start MyName fixed-top" >Angelica Ayala</h3>
 
     </Row>
     </Container>
    
-   
-<Row>
+ 
+<Row >
+    <Navbar expand="xxl" className="bg-body-tertiary m-5 NavMargin navbar-transparent" >
 
-
-
-    <Navbar expand="xxl" className="bg-body-tertiary m-5 NavMargin" >
-
-    <Container>
+    <Container >
       
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav>
+        <Nav className="fixed-top d-flex justify-content-end">
           {/* <Nav.Item as='li'>
             <Nav.Link as={Link} to='/'>Home</Nav.Link>
           </Nav.Item>
@@ -48,6 +45,7 @@ const NavBar = () => {
             <Nav.Link as={Link} to='/Contact'>Contact Me</Nav.Link>
           </Nav.Item> */}
           
+          <Nav.Link href="#NavBar">Home</Nav.Link>
           <Nav.Link href="#AboutMe">About Me</Nav.Link>
           <Nav.Link href="#Skills">Skills</Nav.Link>
           <Nav.Link href="#Portfolio">Portfolio</Nav.Link>
@@ -58,6 +56,11 @@ const NavBar = () => {
     </Container>
   </Navbar> 
     </Row>
+
+
+
+
+
     </>
   );
 };

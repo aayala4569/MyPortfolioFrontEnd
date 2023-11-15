@@ -7,6 +7,9 @@ import AboutMe from "./Components/AboutMe";
 import Skills from "./Components/Skills";
 import Portfolio from "./Components/Portfolio";
 import ContactMe from "./Components/ContactMe";
+import './App.css';
+
+
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -35,7 +38,6 @@ function App() {
       <div>
        
         <Row>
-          
           <Col xs={12} md={8} className="d-flex justify-content-start ">
              <h2 className="overlay-text rounded-3">Creative Developer</h2>
           </Col>
@@ -50,10 +52,10 @@ function App() {
 
       <Row>
         <Col>
-          <AboutMe />
-          <Skills />
-          <Portfolio />
-          <ContactMe />
+          <AboutMe/>
+          <Skills/>
+          <Portfolio/>
+          <ContactMe/>
         </Col>
       </Row>
     </Container>

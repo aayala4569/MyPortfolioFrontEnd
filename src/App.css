@@ -1,12 +1,27 @@
 .MyName {
     font-size: 50px;
 }
-.aboutMe {
-    margin: 200px;
-}
-.skills {
-margin: 200px;
+.navbar-transparent {
+    background-color: transparent !important;
+    box-shadow: none !important;
     
+  }
+.aboutMe {
+   
+    margin: 60px;
+}
+.font {
+    font-size:39px;
+    margin-top: 500px;
+}
+
+.skills {
+margin-top: 200px;
+margin-bottom: 300px;
+
+}
+.space {
+    margin-bottom: 100px;
 }
 
 .NavMargin {
@@ -34,27 +49,36 @@ margin: 200px;
     width: 600px;
     top: 40%;
     left: 5%;
-    transform: translate(-20%, -0%);
+    transform: translate(-10%, -0%);
 }
 .overlay-text {
     position: absolute;
     display:flex;
     text-align: center;
+    width: 900px;
     top: 40%;
     left: 50%;
-    transform: translate(-90%, -40%);
+    transform: translate(-70%, -50%);
     font-size: 160px;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
     z-index: 2; /* Ensure the h2 is above the image */
   } 
+  .floating-icons-container {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    align-items: center;
+    margin-top: 10px; /* Adjust as needed */
+  }
+  
+  .floating-icons-container img {
+    width: 200px;
+    height: 200px;
+    margin: 0 50px; /* Adjust as needed */
+  }
   
 
   
-  /* .image-container {
-    
-    position: relative; /* This is necessary for absolute positioning to work */
-    /* z-index: 1; /* Ensure the image is behind the h2 */
-   /* }  */ 
+
   

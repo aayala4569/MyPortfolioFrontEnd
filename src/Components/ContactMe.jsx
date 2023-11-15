@@ -27,7 +27,7 @@ const ContactMe = () => {
     <div className="d-flex justify-content-center align-items-center vh-100">
       <Row className='contact'>
         <Col md={12} lg={10}>
-          <h3 className='text-center'>Contact Me</h3>
+          <h3 className=" font my-5">Contact Me</h3>
           <Form onSubmit={handleSubmit} className='contact-form'>
             <Form.Group controlId='formName'>
               <Form.Label>Name</Form.Label>

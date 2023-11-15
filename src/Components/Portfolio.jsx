@@ -9,7 +9,7 @@ const Portfolio = () => {
     <div className='projects'>
         <Row>
             <Col className='portfolio'>
-            <h3>Projects</h3>
+            <h3 className="font">Projects</h3>
             </Col>
         </Row>
         <Row>
