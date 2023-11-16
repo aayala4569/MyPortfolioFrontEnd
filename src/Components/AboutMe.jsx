@@ -6,7 +6,7 @@ const AboutMe = () => {
   return (
     <div className="d-flex justify-content-center align-items-center">
       <Row>
-        <Col className="aboutMe">
+        <Col className="aboutMe" id="AboutMe">
           <h3 className="d-flex justify-content-center mb-5 font">
             About me
           </h3>

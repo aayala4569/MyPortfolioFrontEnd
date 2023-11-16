@@ -1,33 +1,42 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import "./App.css";
+import React from 'react';
 import NavBar from "./Components/NavBar";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import AboutMe from "./Components/AboutMe";
 import Skills from "./Components/Skills";
 import Portfolio from "./Components/Portfolio";
 import ContactMe from "./Components/ContactMe";
 import './App.css';
+// import CustomButton from "./ScrollToNextSectionButton";
 
-
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
+  // const ScrollToNextSectionButton = ({ targetSectionId }) => {
+  //   const scrollToNextSection = () => {
+  //     const targetSection = document.getElementById(targetSectionId);
   
+  //     if (targetSection) {
+  //       const offsetTop = targetSection.offsetTop;
+  //       window.scrollTo({
+  //         top: offsetTop,
+  //         behavior: 'smooth',
+  //       });
+  //     }
+  //   };
+
+   
+  //   };
+  
+  //   return (
+  //     <CustomButton variant="primary" onClick={scrollToNextSection}/>
+     
+  //   );
+  // };
 
   // const [count, setCount] = useState(0);
 
   return (
     <Container>
-         {/* <BrowserRouter>
-   <Routes>
-   {/* <Route path="/" element={<Home/>}/> */}
-   {/* <Route path="/AboutMe" element={<AboutMe/>}/>
-   <Route path="/Skills" element={<Skills/>}/>
-   <Route path="/Portfolio" element={<Portfolio/>}/>
-   <Route path="/ContactMe" element={<ContactMe/>}/>
-   </Routes> */}
-{/* </BrowserRouter> */}
+    
    
       <Row>
         <Col className="d-flex justify-content-end">
@@ -48,6 +57,7 @@ function App() {
              <Image src="src/Images/MyImage.png" rounded/>
           </div>
         </Row>
+        {/* <ScrollToNextSectionButton targetSectionId="AboutMe" /> */}
       </div>
 
       <Row>

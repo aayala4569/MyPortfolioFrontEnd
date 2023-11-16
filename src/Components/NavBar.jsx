@@ -15,7 +15,7 @@ const NavBar = () => {
     <>
 <Container>
      <Row >
-      <h3 className="d-flex justify-content-start MyName fixed-top" >Angelica Ayala</h3>
+      <h3 className="d-flex justify-content-start MyName fixed-top mt-4" >Angelica Ayala</h3>
 
     </Row>
     </Container>
@@ -28,7 +28,7 @@ const NavBar = () => {
       
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="fixed-top d-flex justify-content-end">
+        <Nav className="fixed-top d-flex justify-content-end mt-4 mx-5">
           {/* <Nav.Item as='li'>
             <Nav.Link as={Link} to='/'>Home</Nav.Link>
           </Nav.Item>
