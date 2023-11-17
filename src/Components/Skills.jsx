@@ -4,7 +4,7 @@ import {Image} from 'react-bootstrap';
 import CSS from '../Images/CSS.png';
 import Java from '../Images/Java.png';
 import HTML from '../Images/HTML.png';
-import React from '../Images/React.png';
+import LogoR from '../Images/LogoR.png';
 import BootStrap from '../Images/BootStrap.png';
 import Unity from '../Images/Unity.png';
 
@@ -30,7 +30,7 @@ const Skills = () => {
             </Col>
             <Col className="d-flex justify-content-center">
             <div className="floating-icons-container">
-              <Image src={React} rounded/>
+              <Image src={LogoR} rounded/>
              <Image src={BootStrap} rounded/>
              <Image src={Unity} rounded/>
             </div>
