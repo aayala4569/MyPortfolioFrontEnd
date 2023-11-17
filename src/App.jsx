@@ -6,6 +6,7 @@ import Skills from "./Components/Skills";
 import Portfolio from "./Components/Portfolio";
 import ContactMe from "./Components/ContactMe";
 import './App.css';
+import MyFace from './Images/MyImage.png';
 
 
 
@@ -32,7 +33,7 @@ function App() {
        
         <Row className="d-flex justify-content-end">
           <div className="image-container MyImage">
-             <Image src="src/Images/MyImage.png" rounded/>
+             <Image src={MyFace} rounded/>
            
 
           </div>

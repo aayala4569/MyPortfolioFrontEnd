@@ -1,6 +1,12 @@
 import React from 'react';
 import {Row, Col, Container} from 'react-bootstrap';
 import {Image} from 'react-bootstrap';
+import CSS from '../Images/CSS.png';
+import Java from '../Images/Java.png';
+import HTML from '../Images/HTML.png';
+import React from '../Images/React.png';
+import BootStrap from '../Images/BootStrap.png';
+import Unity from '../Images/Unity.png';
 
 
 const Skills = () => {
@@ -16,17 +22,17 @@ const Skills = () => {
             <Row>
             <Col className="d-flex justify-content-center">
               <div className="floating-icons-container">
-            <Image src="src/Images/CSS.png" rounded/>
-            <Image src="src/Images/Java.png" rounded/>
-            <Image src="src/Images/HTML.png" rounded/>
+            <Image src={CSS} rounded/>
+            <Image src={Java} rounded/>
+            <Image src={HTML} rounded/>
            
              </div>
             </Col>
             <Col className="d-flex justify-content-center">
             <div className="floating-icons-container">
-              <Image src="src/Images/React.png" rounded/>
-             <Image src="src/Images/BootStrap.png" rounded/>
-             <Image src="src/Images/Unity.png" rounded/>
+              <Image src={React} rounded/>
+             <Image src={BootStrap} rounded/>
+             <Image src={Unity} rounded/>
             </div>
              
             </Col>

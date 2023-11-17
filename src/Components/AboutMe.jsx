@@ -1,6 +1,8 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import { Image } from "react-bootstrap";
+import Git from '../Images/Git.png';
+import LinkedIn from '../Images/LinkedIn.png';
 // "offset-md-6"
 const AboutMe = () => {
   return (
@@ -23,12 +25,12 @@ const AboutMe = () => {
       
       
        <Image
-            src="src/Images/LinkedIn.png"
+            src={LinkedIn}
             rounded
             style={{ width: "100px", height: "auto" }}
           />
       <Image
-       src="src/Images/Git.png"
+       src={Git}
             rounded
             style={{ width: "100px", height: "auto" }}
           /> 
