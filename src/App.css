@@ -6,6 +6,9 @@
     box-shadow: none !important;
     
   }
+  .CardBody {
+    padding-left: 10%;
+  }
 .aboutMe {
    margin-bottom: 100px;
     margin-top: 200px;

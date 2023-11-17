@@ -5,6 +5,8 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { Card, Button } from 'react-bootstrap';
 import clock from '../Images/clock.png';
+import Game from '../Images/Game.png';
+import Weather from '../Images/Weather.png'
 
 
 
@@ -48,22 +50,6 @@ const Portfolio = () => {
     focusOnSelect: true,
   };
 
-  // const cardData = [
-  //   {
-  //     title: 'Unity Clock',
-  //     description: 'Clock designed in Unity with day and night mode.',
-  //     imageSrc: 'src/Images/clock.png',
-  //     link: 'https://play.unity.com/p/clockproject/edit',
-  //   },
-  //   {
-  //     title: 'Video Games',
-  //     description: 'Find your favorite video game.',
-  //     imageSrc: 'src/Images/Game.png',
-  //     link: 'https://jolly-island-0035bc31e.3.azurestaticapps.net/',
-  //   },
-  //   // Add more objects for additional cards
-  // ];
-  
  
   return (
     <div className='projects'>
@@ -72,9 +58,9 @@ const Portfolio = () => {
             <h3 className="font" id="Projects">Projects</h3>
             </Col>
         </Row>
-        {/* <Slider {...settings}> */}
-        {/* {cardData.map((card, index) => ( */}
-          <div>
+       
+     <Row>
+      <div className="CardBody" style={{ display: 'flex', justifyContent: 'center'}}>
             <Card style={{ width: '18rem', cursor: 'pointer' }} onClick={() => setSelectedCard(index)}>
               <Card.Img variant="top" src={clock} />
               <Card.Body>
@@ -92,7 +78,7 @@ const Portfolio = () => {
               </Card.Body>
             </Card>
             <Card style={{ width: '18rem', cursor: 'pointer' }} onClick={() => setSelectedCard(index)}>
-              <Card.Img variant="top" src={clock} />
+              <Card.Img variant="top" src={Game} />
               <Card.Body>
                 <Card.Title><p>
                   Video Game
@@ -101,10 +87,21 @@ const Portfolio = () => {
                 <Button variant="primary" onClick={() => window.open('https://jolly-island-0035bc31e.3.azurestaticapps.net')}>Go somewhere</Button>
               </Card.Body>
             </Card>
+            <Card style={{ width: '18rem', cursor: 'pointer' }} onClick={() => setSelectedCard(index)}>
+              <Card.Img variant="top" src={Weather} />
+              <Card.Body>
+                <Card.Title><p>
+                  Weather App
+                  </p></Card.Title>
+                <Card.Text><p>Check today's weather.</p></Card.Text>
+                <Button variant="primary" onClick={() => window.open('https://lemon-mud-0b40a301e.4.azurestaticapps.net/')}>Go somewhere</Button>
+              </Card.Body>
+            </Card>
+           
           </div>
-        {/* ))} */}
-
-        {/* </Slider>      */}
+     </Row>
+          
+      
     </div>
   );}
 
