@@ -7,17 +7,18 @@
     
   }
 .aboutMe {
-   
-    margin: 60px;
+   margin-bottom: 100px;
+    margin-top: 200px;
 }
 .font {
     font-size:39px;
-    margin-top: 500px;
+    margin-top: 50px;
+
 }
 
 .skills {
 margin-top: 200px;
-margin-bottom: 300px;
+margin-bottom: 200px;
 
 }
 .space {
@@ -26,29 +27,32 @@ margin-bottom: 300px;
 
 .NavMargin {
   
-    margin-bottom: 200px;
+    margin-bottom: 400px;
    
 }
 .portfolio {
     display:flex;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 300px;
 }
 .projects{
-    margin-bottom: 200px;
+    margin-top: 200px;
+    /* margin-bottom: 200px; */
 }
 .contact {
     display:flex;
     justify-content: center;
     margin-bottom: 150px;
+    margin-top: 300px;
 }
 
 .MyImage {
     display:flex;
     justify-content: center;
+    margin-bottom: 300px;
     height: 610px;
     width: 600px;
-    top: 40%;
+    top: 50%;
     left: 5%;
     transform: translate(-10%, -0%);
 }
@@ -57,8 +61,8 @@ margin-bottom: 300px;
     display:flex;
     text-align: center;
     width: 900px;
-    top: 40%;
-    left: 50%;
+    top: 45%;
+    left: 45%;
     transform: translate(-70%, -50%);
     font-size: 160px;
     color: white;

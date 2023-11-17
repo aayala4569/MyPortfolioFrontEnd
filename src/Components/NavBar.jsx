@@ -14,7 +14,7 @@ const NavBar = () => {
   return (
     <>
 <Container>
-     <Row >
+     <Row id="NavBar" >
       <h3 className="d-flex justify-content-start MyName fixed-top mt-4" >Angelica Ayala</h3>
 
     </Row>
@@ -48,7 +48,7 @@ const NavBar = () => {
           <Nav.Link href="#NavBar">Home</Nav.Link>
           <Nav.Link href="#AboutMe">About Me</Nav.Link>
           <Nav.Link href="#Skills">Skills</Nav.Link>
-          <Nav.Link href="#Portfolio">Portfolio</Nav.Link>
+          <Nav.Link href="#Projects">Projects</Nav.Link>
           <Nav.Link href="#ContactMe">Contact Me</Nav.Link>
           
         </Nav>

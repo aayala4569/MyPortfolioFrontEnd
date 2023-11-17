@@ -8,7 +8,7 @@ const Skills = () => {
     <div className="skills">
         <Row>
             <Col className="d-flex justify-content-center space">
-            <h3 className="font">Skills</h3>
+            <h3 className="font" id="Skills">Skills</h3>
             </Col>
             </Row>
 

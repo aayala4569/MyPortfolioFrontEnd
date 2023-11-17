@@ -1,12 +1,13 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import { Image } from "react-bootstrap";
-
+// "offset-md-6"
 const AboutMe = () => {
   return (
     <div className="d-flex justify-content-center align-items-center">
-      <Row>
-        <Col className="aboutMe" id="AboutMe">
+      <div>
+<Row>
+        <Col  className="aboutMe md-6" id="AboutMe">
           <h3 className="d-flex justify-content-center mb-5 font">
             About me
           </h3>
@@ -20,18 +21,23 @@ const AboutMe = () => {
         </Col>
  <Row className="d-flex justify-content-center">
       
-      <Image
+      
+       <Image
             src="src/Images/LinkedIn.png"
             rounded
             style={{ width: "100px", height: "auto" }}
           />
       <Image
-            src="src/Images/Git.png"
+       src="src/Images/Git.png"
             rounded
             style={{ width: "100px", height: "auto" }}
-          />   
+          /> 
+      
       </Row>
       </Row>
+
+      </div>
+      
     </div>
   );
 };
