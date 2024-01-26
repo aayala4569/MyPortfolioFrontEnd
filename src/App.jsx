@@ -33,7 +33,7 @@ function App() {
        
         <Row className="d-flex justify-content-end">
           <div className="image-container MyImage">
-             <Image src={MyFace} rounded/>
+             <Image src={MyFace} alt='myFace' rounded/>
            
 
           </div>
