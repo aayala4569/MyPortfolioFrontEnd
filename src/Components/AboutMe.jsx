@@ -28,11 +28,13 @@ const AboutMe = () => {
             src={LinkedIn}
             rounded
             style={{ width: "100px", height: "auto" }}
+            alt="linkedIn"
           />
       <Image
        src={Git}
             rounded
             style={{ width: "100px", height: "auto" }}
+            alt="git"
           /> 
       
       </Row>

@@ -62,7 +62,7 @@ const Portfolio = () => {
      <Row>
       <div className="CardBody" style={{ display: 'flex', justifyContent: 'center'}}>
             <Card style={{ width: '18rem', cursor: 'pointer' }} onClick={() => setSelectedCard(index)}>
-              <Card.Img variant="top" src={clock} />
+              <Card.Img variant="top" src={clock} alt='clock' />
               <Card.Body>
                 <Card.Title>
                   <p>
@@ -78,7 +78,7 @@ const Portfolio = () => {
               </Card.Body>
             </Card>
             <Card style={{ width: '18rem', cursor: 'pointer' }} onClick={() => setSelectedCard(index)}>
-              <Card.Img variant="top" src={Game} />
+              <Card.Img variant="top" src={Game} alt='game' />
               <Card.Body>
                 <Card.Title><p>
                   Video Game
@@ -88,7 +88,7 @@ const Portfolio = () => {
               </Card.Body>
             </Card>
             <Card style={{ width: '18rem', cursor: 'pointer' }} onClick={() => setSelectedCard(index)}>
-              <Card.Img variant="top" src={Weather} />
+              <Card.Img variant="top" src={Weather} alt='weather' />
               <Card.Body>
                 <Card.Title><p>
                   Weather App

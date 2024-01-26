@@ -22,17 +22,17 @@ const Skills = () => {
             <Row>
             <Col className="d-flex justify-content-center">
               <div className="floating-icons-container">
-            <Image src={CSS} rounded/>
-            <Image src={Java} rounded/>
-            <Image src={HTML} rounded/>
+            <Image src={CSS} alt='css' rounded/>
+            <Image src={Java} alt='javaScript' rounded/>
+            <Image src={HTML} alt='html' rounded/>
            
              </div>
             </Col>
             <Col className="d-flex justify-content-center">
             <div className="floating-icons-container">
-              <Image src={LogoR} rounded/>
-             <Image src={BootStrap} rounded/>
-             <Image src={Unity} rounded/>
+              <Image src={LogoR} alt='logo' rounded/>
+             <Image src={BootStrap} alt='bootStrap' rounded/>
+             <Image src={Unity} alt='unity' rounded/>
             </div>
              
             </Col>
